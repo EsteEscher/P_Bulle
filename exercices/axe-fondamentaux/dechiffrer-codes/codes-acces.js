@@ -6,6 +6,7 @@
 /**
  *
  * @param {*} value
+ * @returns
  */
 export function convertCode(value) {
   // TODO
@@ -65,7 +66,10 @@ export function isEvenCode(code) {
  */
 /**
  *
+ *
+ *
  * @param {*} value
+ * @returns
  */
 export function isInvalidCode(value) {
   // TODO
