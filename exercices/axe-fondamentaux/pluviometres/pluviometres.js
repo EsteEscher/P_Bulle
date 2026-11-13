@@ -56,6 +56,12 @@ export function isFaultyReading(value) {
 /**
  * Compare strictement deux relevés après conversion en nombres.
  */
+/**
+ *
+ * @param {*} manual
+ * @param {*} automatic
+ * @returns {Boolean}
+ */
 export function isConfirmedReading(manual, automatic) {
   // TODO
   return Boolean(Number(manual) == Number(automatic));
