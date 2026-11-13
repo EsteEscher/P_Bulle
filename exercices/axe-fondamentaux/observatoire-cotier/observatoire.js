@@ -82,5 +82,5 @@ export function totalBirds(northCount, southCount) {
  */
 export function isValidWaveHeight(height) {
   // TODO
-  return Boolean(height === Number(height) && !isNaN(height));
+  return height === Number(height) && !isNaN(height);
 }

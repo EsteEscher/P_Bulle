@@ -57,7 +57,6 @@ export function sameCodeStrict(value1, value2) {
  */
 export function isEvenCode(code) {
   // TODO
-  let isEven;
   return code % 2 == 0;
 }
 
